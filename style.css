@@ -12,8 +12,9 @@ ul {
 button {
     border: none;
 }
-html, body {
+body {
     font-family: 'Inter', sans-serif ;
+    color: #303030;
 }
 
 /* nav bar */
@@ -21,43 +22,41 @@ html, body {
     background: #2965f1;
     padding: 23px 0;
 }
-.logo {
-    font-weight: 700;
+span {
     font-size: 20px;
+    font-weight: 700;
     color: #fff;
 }
 
 /* section 1 */
 
 .main-section {
-    background: #fafaff;
+    background-color: #fafaff;
     padding: 60px 0;
     min-height: 100%;
 }
 h1 {
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
     margin-bottom: 20px;
 
 }
 p {
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
 }
 .img {
-    width: 715px;
+    max-width: 715px;
 }
 
 /* section 2  */
 
 .form-section {
-    background: #fff;
+    background-color: #fff;
     padding: 100px 0;
 }
-.section-option {
-    border: 1px solid rgba(48, 48, 48, 0.3);
+select {
+    border: 1px solid #3030304d;
     border-radius: 5px;
     width: 150px;
     padding: 9px 12px;
@@ -65,7 +64,6 @@ p {
 
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
 
     background-image: url(./assets/img/ep_arrow-down.svg);
     background-repeat: no-repeat;
@@ -75,8 +73,6 @@ p {
 h2 {
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
-
     margin-bottom: 25px;
 }
 .list-style-books {
